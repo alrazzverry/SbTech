@@ -1,0 +1,19 @@
+body {
+  padding: 10px;
+  background: white;
+  }
+.flex-container {
+	display: -webkit-flex; //safari
+	-webkit-flex-direction: column; //safari
+	display: flex;
+	flex-direction: column;
+}
+.flex-opacity {
+	zoom: 1;
+	opacity: 0;	
+}
+.flex-element {
+	margin: 5px;
+	padding: 1px;
+	font: 14px Arial;
+  }
